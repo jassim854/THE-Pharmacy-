@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "715030398995",
+    "project_id": "flutterpharmacyapp",
+    "storage_bucket": "flutterpharmacyapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715030398995:android:5165d20cc7ee8a735297e6",
+        "android_client_info": {
+          "package_name": "com.example.flutter_pharmacy_mobile_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "715030398995-88d76ih76ho2kr1s2jd3brbv5eg8c7iu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVtlrC9-gCb3CppTAi_K0YtpZ_4ugWMXo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "715030398995-88d76ih76ho2kr1s2jd3brbv5eg8c7iu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
