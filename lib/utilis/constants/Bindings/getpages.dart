@@ -1,3 +1,4 @@
+import 'package:flutter_pharmacy_mobile_app/splash_screen.dart';
 import 'package:flutter_pharmacy_mobile_app/view/Auth/forgetPasswor.dart';
 import 'package:flutter_pharmacy_mobile_app/view/Auth/sign_up.dart';
 import 'package:flutter_pharmacy_mobile_app/view/Chat/chatview.dart';
@@ -18,6 +19,10 @@ class GetPageList {
      GetPage(
       name: LogInView.routeName,
       page: () => LogInView(),
+    ),
+    GetPage(
+      name: SplashScreen.routeName,
+      page: () => SplashScreen(),
     ),
     GetPage(
       name: ForgetPassword.routeName,

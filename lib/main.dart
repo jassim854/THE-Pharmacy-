@@ -1,6 +1,8 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_easyloading/flutter_easyloading.dart';
+import 'package:flutter_pharmacy_mobile_app/controllers/splashController.dart';
+import 'package:flutter_pharmacy_mobile_app/splash_screen.dart';
 import 'package:flutter_pharmacy_mobile_app/utilis/constants/Bindings/getpages.dart';
 import 'package:flutter_pharmacy_mobile_app/utilis/constants/Bindings/initialbinding.dart';
 import 'package:flutter_pharmacy_mobile_app/view/Auth/Login_view.dart';
@@ -30,6 +32,6 @@ class MyApp extends StatelessWidget {
         title: 'Pharmacy Mobile App',
         getPages: GetPageList.pages,
         initialBinding: InitialBindings(),
-        initialRoute: LogInView.routeName);
+        initialRoute: SplashScreen.routeName);
   }
 }

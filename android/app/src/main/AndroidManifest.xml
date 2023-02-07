@@ -10,7 +10,7 @@
 
 
    <application
-        android:label="THE pharmacy"
+        android:label="THE Pharmacy"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

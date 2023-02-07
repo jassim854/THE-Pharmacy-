@@ -87,7 +87,7 @@ class AuthController extends GetxController {
     passwordSignUpController.clear();
     confirmPasswordController.clear();
     formKey1.currentState!.reset();
-    Get.offAndToNamed(LogInView.routeName);
+    Get.offAllNamed(LogInView.routeName);
   }
 
   Future signInGoogle(context) async {
@@ -107,7 +107,7 @@ class AuthController extends GetxController {
           idToken: googleAuth.idToken,
         );
         await FirebaseAuth.instance.signInWithCredential(credential);
-        Get.offAndToNamed(HomeView.routeName);
+        Get.offAllNamed(HomeView.routeName);
       }
     } on FirebaseAuthException catch (e) {
       BaseHelper.showSnackBar(e.message);
@@ -145,7 +145,7 @@ class AuthController extends GetxController {
     FirebaseAuth.instance.signOut();
     if (googleSignIn.currentUser != null) {
       googleSignIn.signOut();
-      Get.offAndToNamed(LogInView.routeName);
+      Get.offAllNamed(LogInView.routeName);
       EasyLoading.dismiss();
     } else if (FacebookAuth.instance.accessToken != null) {
       FacebookAuth.instance.logOut();

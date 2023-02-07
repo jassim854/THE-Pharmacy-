@@ -63,7 +63,7 @@ class LogInView extends StatelessWidget {
                               // SizedBox(
                               //   height: height * 0.04,
                               // ),
-                              MediaQuery.of(context).viewInsets.bottom >= 200
+                              MediaQuery.of(context).viewInsets.bottom >= 100
                                   ? SizedBox(height: height * 0.01)
                                   : const SizedBox.shrink(),
                               Center(child: headerLogIn()),

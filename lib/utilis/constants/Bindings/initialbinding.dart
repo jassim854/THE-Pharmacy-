@@ -1,5 +1,6 @@
 import 'package:flutter_pharmacy_mobile_app/controllers/authcontroller.dart';
 import 'package:flutter_pharmacy_mobile_app/controllers/homePageController.dart';
+import 'package:flutter_pharmacy_mobile_app/controllers/splashController.dart';
 import 'package:get/get.dart';
 
 class InitialBindings extends Bindings {
@@ -7,6 +8,7 @@ class InitialBindings extends Bindings {
   void dependencies() {
     Get.put(AuthController());
     Get.put(HomePageController());
+     Get.put(SplashController());
 
     // Get.put(TokenHelper());
   }
