@@ -2,14 +2,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_pharmacy_mobile_app/controllers/splashController.dart';
 import 'package:flutter_pharmacy_mobile_app/utilis/constants/appimages.dart';
 import 'package:flutter_pharmacy_mobile_app/utilis/constants/colors.dart';
-import 'package:flutter_pharmacy_mobile_app/view/Auth/Login_view.dart';
-import 'package:flutter_svg/flutter_svg.dart';
 import 'package:get/get.dart';
 
 class SplashScreen extends StatelessWidget {
   static const routeName = '/splash';
 
-  SplashScreen({super.key});
+  const SplashScreen({super.key});
 
   @override
   Widget build(
