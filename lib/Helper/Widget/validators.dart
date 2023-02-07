@@ -67,7 +67,7 @@ class Validators {
     if (value.isEmpty) {
       return "required".tr;
     } else if (value.length < 8) {
-      return "min_x_char_required".tr;
+      return "min_8_char_required".tr;
     }
     return null;
   }
